@@ -1,0 +1,110 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+
+header {
+    background-color: #660cd4;
+    color: #fffefe;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #efe2f9;  
+}
+
+
+header p {
+    font-size: 18px;
+}
+
+.subjects {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.subject {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subject h3 {
+    font-size: 24px;
+    color: #660cd4;
+    text-align: center;
+}
+
+.subject p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+footer {
+    background-color: #660cd4;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    stroke-width: 2;
+    stroke: #660cd4;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+h2 {
+    font-size: 30px;
+    color: #660cd4;
+    text-align: center;
+}
+
+
+.nav-bg {
+    background-color: #000cf6;
+}
+
+.primary-nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+.primary-nav a{
+    color: #ffffff;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.primary-nav a:hover{
+    background-color: #00aad9;
+    color: #000000;
+}
+
